@@ -1,0 +1,121 @@
+body {
+    background-image: url("../img/background.png");
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+nav {
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+
+    
+}
+
+.navbar {
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+#contactLi {
+    padding-right: 0px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 28px;
+    color: #ffffff;
+    line-height: 50px;
+}
+
+.h1Green {
+    color: #4aaaa5;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 21px;
+    color: #ffffff;
+}
+
+.greenBoxName {
+    background: #4aaaa5;
+    width: 255px;
+    margin-left: 75px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.marginPadding960px {
+    margin-left: 75px;
+    margin-right: 75px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+div .jumbotron {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 0px;
+
+    /* padding: 40px;
+    margin-left: 75px;
+    margin-right: 75px; */
+    margin-bottom: 150px;
+    padding-top: 40px;
+}
+
+
+hr {
+    height: 3px;
+    border: 0;
+    background: #dddddd;
+    margin-bottom: 30px;
+}
+
+img {
+    border-radius: 0px;
+    border: 0px;
+}
+
+.card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    max-height: 150px;
+}
+
+div .card {
+    border: 0px;
+    border-radius: 0px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+}
+
+.buttonGreen {
+    background-color: #4aaaa5;
+    border: 0px;
+    border-radius: 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+}
